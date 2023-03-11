@@ -1,0 +1,48 @@
+ .slider{
+    margin-top: 51px;
+    margin-bottom: 65px;
+    &__subtitle{
+        margin-top: 43px;
+    }
+    &__wrapper{
+        margin-top: 31px;
+        
+        
+    }
+    &__item{
+        position: relative;
+        
+        &__icon{
+            
+            width: 114px;
+            height: 114px;
+            border-radius: 100%;
+            margin: 0 auto;
+            display: block;
+            // align-items: center;
+        }
+        &__descr{
+            width: 600px;
+            margin: 0 auto;
+            text-align: center;   
+        }
+    }
+    .slick-prev , .slick-next {
+        position: absolute;
+        top: 15%;
+        left:-66px;
+        border: none;
+        background-color: #fff;
+        img{
+            width: 14px;
+            height: 46px;
+        }
+    }
+    .slick-next{
+        position: absolute;
+        right:230px;
+        left:auto;
+    }
+ }
+
+    
